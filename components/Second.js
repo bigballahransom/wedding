@@ -16,7 +16,7 @@ const Second = () => {
   <AccordionItem value="item-1">
     <AccordionTrigger>Can we bring pets?</AccordionTrigger>
     <AccordionContent>
-      Pets are not allowed at the wedding, you may bring pets to your lodging areas.
+      Pets are not allowed at the wedding venue, you may bring pets to your lodging areas if allowed.
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-2">
@@ -32,15 +32,9 @@ const Second = () => {
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-4">
-    <AccordionTrigger>How did you fall in love?</AccordionTrigger>
+    <AccordionTrigger>What can I wear to the wedding?</AccordionTrigger>
     <AccordionContent>
-      We tripped. No falling involved.
-    </AccordionContent>
-  </AccordionItem>
-  <AccordionItem value="item-5">
-    <AccordionTrigger>How did you fall in love?</AccordionTrigger>
-    <AccordionContent>
-      We tripped. No falling involved.
+      Attire: semi-formal, 3/4 or full-length dresses. For men a tie is optional.
     </AccordionContent>
   </AccordionItem>
 </Accordion>

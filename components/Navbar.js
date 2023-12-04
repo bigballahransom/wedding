@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='h-16 bg-primary text-white fixed top-0 w-screen'>
         <div className='flex justify-between items-center px-6 py-4'>
-            <div className='text-white font-bold text-lg flex gap-2'>
+            <div className='text-white font-bold text-lg flex gap-2 items-center'>
             <Image src="/whiteline.png" alt="bookqube logo" width={20} height={20} className=" w-auto mx-auto "/>
             Lauren & Andrew Ransom</div>
             <div>

@@ -7,10 +7,10 @@ const Hero = () => {
     // The 'justify-center' class centers children along the main axis (horizontally).
     // The 'items-center' class centers children along the cross axis (vertically).
     // The 'h-screen' class makes the div take up the full height of the viewport.
-    <div className='flex justify-center items-center h-screen bg-primary text-white mt-18'>
+    <div className='flex justify-center items-center md:h-screen bg-primary text-white mt-18'>
     <div className='md:flex md:gap-10'>
     <div className='my-auto mx-auto text-center p-16'>
-      <h1 className='font-bold text-5xl text-white text-center pb-2 pt-16'>We're Getting Married!</h1>
+      <h1 className='font-bold text-3xl text-white text-center pb-2 pt-16'>We're Getting Married!</h1>
       <h1 className=' font-light text-2xl text-backdrop pb-4'>
       Thursday, July 11, 2024 • Hood River, Oregon</h1>
       <div className='flex justify-center gap-3'>
@@ -36,7 +36,7 @@ const Hero = () => {
       {/* å */}
       </div>
       </div>
-      <Image src="/hero.jpg" alt="bookqube logo" width={300} height={600} className=" w-auto mx-auto rounded-full border-4 border-white"/>
+      <Image src="/hero.jpg" alt="bookqube logo" width={200} height={400} className=" w-auto mx-auto rounded-full border-4 border-white mb-16"/>
       </div>
     </div>
   );
