@@ -1,12 +1,25 @@
 import Coming from '@/components/Coming'
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
     <div className='p-16 bg-white mt-16'>
     <div clasName='flex p-8 bg-white'>
-<div className='flex'>
-<Coming/>
+<div className=''>
+{/* <Coming/> */}
+<h1 className='font-bold text-3xl text-orange text-center'>Attire</h1>
+<p className='text-primary text-center pt-2'>Please try your best to wear neutal colors to match the theme. Requesting neutrals and earthy tones within our palette for a cohesive, beautiful look as we are a small group. specifically, we request no black, navy, or reds. an example color palette is below for reference. If you need help reach out to us! We have attached some guides below!</p>
+<p className='text-primary text-center pt-2'><span className='font-bold'>Please don’t wear:</span> White, champagne, ivory, emerald, or olive as these colors will be worn by the bridal party and mothers.</p>
+<p className='text-primary text-center pt-2'><span className='font-bold'>~ Semi-Formal to Formal Attire ~</span></p>
+<Image src="/palette.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/idk.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+
+<h1 className='font-bold text-3xl text-orange text-center'>~ Men ~</h1>
+<Image src="/men.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/men2.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<h1 className='font-bold text-3xl text-orange text-center'>~ Ladies ~</h1>
+<Image src="/women.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white"/>
 {/* <div>
     <h1 className='font-bold text-3xl text-orange text-center'>Our Story</h1>
     <p className='text-primary text-center pt-2'>Once upon a time in the vibrant city of Seattle, two souls embarked on a journey that would forever change the course of their lives. Lauren and Andrew, destined for each other, found their love story unfolding in the most unexpected of places – as roommates and friends.
