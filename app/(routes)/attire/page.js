@@ -8,13 +8,14 @@ const page = () => {
     <div clasName='flex p-8 bg-white'>
 <div className=''>
 {/* <Coming/> */}
-<h1 className='font-bold text-3xl text-orange text-center'>Attire</h1>
-<p className='text-primary text-center pt-2'>Please try your best to wear neutal colors to match the theme. Requesting neutrals and earthy tones within our palette for a cohesive, beautiful look as we are a small group. specifically, we request no black, navy, or reds. an example color palette is below for reference. If you need help reach out to us! We have attached some guides below!</p>
-<p className='text-primary text-center pt-2'><span className='font-bold'>Please don’t wear:</span> White, champagne, ivory, emerald, or olive as these colors will be worn by the bridal party and mothers.</p>
-<p className='text-primary text-center pt-2'><span className='font-bold'>~ Semi-Formal to Formal Attire ~</span></p>
+<h1 className='font-bold text-3xl text-orange text-center'>~ Guest Attire ~</h1>
+<p className='text-primary text-center pt-2 mb-4'>If you need help reach out to us! We have attached some guidelines below!</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Please Wear: </span> Neutral and Earth Tones for a gorgeous, immersive outdoor wedding experience and cohesive, beautiful photos for the Bride and Groom. <span>(Color palettes and examples below for reference.)</span></p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Kindly Avoid:</span> White, ivory, or solid greens as these colors will be worn throughout the wedding party. We also specifically request no solid black, blues, or bright red.</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>~ Semi-Formal to Formal Attire ~</span></p>
 <Image src="/palette.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/idk.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
-<Image src="/gray.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/gray.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16 border-2 border-white"/>
 
 <h1 className='font-bold text-3xl text-orange text-center'>~ Men ~</h1>
 <Image src="/men.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
