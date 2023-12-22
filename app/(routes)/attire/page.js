@@ -12,7 +12,7 @@ const page = () => {
 <p className='text-primary text-center pt-2 mb-4'>If you need help reach out to us! We have attached some guidelines below!</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Please Wear: </span> Neutral and Earth Tones for a gorgeous, immersive outdoor wedding experience and cohesive, beautiful photos for the Bride and Groom. <span>(Color palettes and examples below for reference.)</span></p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Kindly Avoid:</span> White, ivory, or solid greens as these colors will be worn throughout the wedding party. We also specifically request no solid black, blues, or bright red.</p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>~ Semi-Formal to Formal Attire ~</span></p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>~ Semi-Formal Attire ~</span></p>
 <Image src="/palette.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/idk.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/gray.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16 border-2 border-white"/>
