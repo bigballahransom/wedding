@@ -12,7 +12,7 @@ const page = () => {
 <h1 className='font-bold text-3xl text-orange text-center'>~ Guest Attire ~</h1>
 <p className='text-primary text-center pt-2 mb-4'>If you need help reach out to us! We have attached some guidelines below!</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Please Wear: </span> Neutral and Earth Tones for a gorgeous, immersive outdoor wedding experience and cohesive, beautiful photos for the Bride and Groom. <span>(Color palettes and examples below for reference.)</span></p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>We also specifically request no solid black, blues, or bright red; alternatively, soft greys or burgundy will be a better color match for our theme. Please no jeans or other casual wear for this event. Women are welcome to wear 3/4 to full-length dresses, while men are encouraged to wear either a suit or blazer with dress pants.</span></p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Kindly Avoid: </span>We also specifically request no solid black, blues, or bright red; alternatively, soft greys or burgundy will be a better color match for our theme. Please no jeans or other casual wear for this event. Women are welcome to wear 3/4 to full-length dresses, while men are encouraged to wear either a suit or blazer with dress pants.</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>~ Semi-Formal Attire ~</span></p>
 <h1 className='font-bold text-3xl text-orange text-center'>~ Colors ~</h1>
 <Image src="/palette.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
