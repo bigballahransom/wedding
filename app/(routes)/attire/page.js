@@ -1,6 +1,7 @@
 import Coming from '@/components/Coming'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -18,10 +19,61 @@ const page = () => {
 <Image src="/gray.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16 border-2 border-white"/>
 
 <h1 className='font-bold text-3xl text-orange text-center'>~ Men ~</h1>
-<Image src="/men.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/men2.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/men.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/m1.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
+<Link className='flex justify-center items-center' href='https://www.pinterest.com/pin/52635889386730192/'>
+<button className='flex gap-1 bg-orange text-primary px-4 py-2 rounded-full hover:bg-backdrop items-center justify-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+</svg>
+
+
+      View</button>
+</Link>
+<Image src="/m2.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
+<Link className='flex justify-center items-center' href='https://www.pinterest.com/pin/883338914393994996/'>
+<button className='flex gap-1 bg-orange text-primary px-4 py-2 rounded-full hover:bg-backdrop items-center justify-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+</svg>
+
+
+      View</button>
+</Link>
+
 <h1 className='font-bold text-3xl text-orange text-center'>~ Ladies ~</h1>
 <Image src="/women.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white"/>
+<Image src="/f1.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
+<Link className='flex justify-center items-center' href='https://www.amazon.com/Wedding-Dresses-Appliques-Chiffon-Evening/dp/B0BKL38PK9?ref_=pinterest_fplfs&pp=0&epik=dj0yJnU9Z0pxNEFVbk1MN25ZZlQteWFoRFRCeUxEeFoyckNpcGEmcD0xJm49eXp0MFg2bXV4c0FDaDdoUXhORFBXZyZ0PUFBQUFBR1ZmeGx3&th=1&psc=1'>
+<button className='flex gap-1 bg-orange text-primary px-4 py-2 rounded-full hover:bg-backdrop items-center justify-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+</svg>
+
+
+      View</button>
+</Link>
+<Image src="/f2.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
+<Link className='flex justify-center items-center' href='https://www.pinterest.com/pin/294352525655984649/'>
+<button className='flex gap-1 bg-orange text-primary px-4 py-2 rounded-full hover:bg-backdrop items-center justify-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+</svg>
+
+
+      View</button>
+</Link>
+<Image src="/f3.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
+<Link className='flex justify-center items-center' href='https://www.pinterest.com/pin/59672763805989520/'>
+<button className='flex gap-1 bg-orange text-primary px-4 py-2 rounded-full hover:bg-backdrop items-center justify-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+</svg>
+
+
+      View</button>
+</Link>
 {/* <div>
     <h1 className='font-bold text-3xl text-orange text-center'>Our Story</h1>
     <p className='text-primary text-center pt-2'>Once upon a time in the vibrant city of Seattle, two souls embarked on a journey that would forever change the course of their lives. Lauren and Andrew, destined for each other, found their love story unfolding in the most unexpected of places – as roommates and friends.
