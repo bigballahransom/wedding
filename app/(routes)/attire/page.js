@@ -12,13 +12,15 @@ const page = () => {
 <h1 className='font-bold text-3xl text-orange text-center'>~ Guest Attire ~</h1>
 <p className='text-primary text-center pt-2 mb-4'>If you need help reach out to us! We have attached some guidelines below!</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Please Wear: </span> Neutral and Earth Tones for a gorgeous, immersive outdoor wedding experience and cohesive, beautiful photos for the Bride and Groom. <span>(Color palettes and examples below for reference.)</span></p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Kindly Avoid:</span> White, ivory, or solid greens as these colors will be worn throughout the wedding party. We also specifically request no solid black, blues, or bright red.</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Kindly Avoid:</span> White, ivory, or solid greens as these colors will be worn throughout the wedding party. We also specifically request no solid black, blues, or bright red. Jeans or other casual wear.</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>~ Semi-Formal Attire ~</span></p>
+<h1 className='font-bold text-3xl text-orange text-center'>~ Colors ~</h1>
 <Image src="/palette.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/idk.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/gray.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16 border-2 border-white"/>
 
 <h1 className='font-bold text-3xl text-orange text-center'>~ Men ~</h1>
+<p className='text-primary text-center pt-2 mb-4'>Men: Suit or blazer with dress pants</p>
 <Image src="/men2.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/men.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/m1.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
@@ -42,7 +44,8 @@ const page = () => {
       View</button>
 </Link>
 
-<h1 className='font-bold text-3xl text-orange text-center'>~ Ladies ~</h1>
+<h1 className='font-bold text-3xl text-orange text-center mt-8'>~ Ladies ~</h1>
+<p className='text-primary text-center pt-2 mb-4'>Women: 3/4 to full-length dresses</p>
 <Image src="/women.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white"/>
 <Image src="/f1.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
 <Link className='flex justify-center items-center' href='https://www.amazon.com/Wedding-Dresses-Appliques-Chiffon-Evening/dp/B0BKL38PK9?ref_=pinterest_fplfs&pp=0&epik=dj0yJnU9Z0pxNEFVbk1MN25ZZlQteWFoRFRCeUxEeFoyckNpcGEmcD0xJm49eXp0MFg2bXV4c0FDaDdoUXhORFBXZyZ0PUFBQUFBR1ZmeGx3&th=1&psc=1'>
