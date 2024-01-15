@@ -37,6 +37,24 @@ const Second = () => {
       Attire: semi-formal, 3/4 or full-length dresses. For men a tie is optional.
     </AccordionContent>
   </AccordionItem>
+  <AccordionItem value="item-5">
+    <AccordionTrigger>Hotel</AccordionTrigger>
+    <AccordionContent>
+      Hood River Hotel
+      Address: 102 Oak St, Hood River, OR 97031
+      You can not book online, or on the phone; you must use our booking link
+      Rooms will be released 30 days prior to the wedding
+      daily parking avaailable 
+      Pictures of the hotel
+      Food avaialable 
+
+
+      color palettes for attire
+
+      menu from catering: look on their website
+      please alert us in advance if you have any allerigies
+    </AccordionContent>
+  </AccordionItem>
 </Accordion>
 </div>
 

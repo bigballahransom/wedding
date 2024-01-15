@@ -34,8 +34,8 @@ const Navbar = () => {
                             </Link>
                         </SheetDescription>
                         <SheetDescription>
-                        <Link href='/details'>
-                            <button className='text-xl text-primary hover:text-orange'>Details</button>
+                        <Link href='/hotel'>
+                            <button className='text-xl text-primary hover:text-orange'>Hotel</button>
                             </Link>
                         </SheetDescription>
                         <SheetDescription>
