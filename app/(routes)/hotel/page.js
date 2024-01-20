@@ -12,7 +12,7 @@ const page = () => {
 <h1 className='font-bold text-2xl text-orange text-center mb-2'>The Details:</h1>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Booking: </span> You can not book online, or on the phone; you must use our booking link!</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Book Sooner Than Later: </span>Rooms will be released 30 days prior to the wedding.</p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Parking: </span>Daily paid parking avaialable for those driving in.</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Parking: </span>Daily paid parking available for those driving in.</p>
 <h1 className='font-bold text-2xl text-orange text-center mt-8 mb-2'>The Hood River Food Menu A.K.A. BRODER ØST:</h1>
 <p className='text-primary text-center pt-2 mb-4'>We're looking forward to the brunch!</p>
 <Image src="/border.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
