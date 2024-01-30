@@ -14,10 +14,8 @@ export default function Home() {
     <Greeting/>
     </div>
     <hr/>
-    <div className='p-16 bg-white'>
-    <div clasName='flex p-8 bg-white'>
-<div className='flex'>
-<Coming/>
+{/* 
+<Coming/> */}
 {/* <div>
     <h1 className='font-bold text-3xl text-orange text-center'>Our Story</h1>
     <p className='text-primary text-center pt-2'>Once upon a time in the vibrant city of Seattle, two souls embarked on a journey that would forever change the course of their lives. Lauren and Andrew, destined for each other, found their love story unfolding in the most unexpected of places – as roommates and friends.
@@ -34,10 +32,6 @@ And so, on this day, surrounded by the love and warmth of family and friends, La
 
 As they embark on this new chapter as husband and wife, let their love story inspire others to believe in the magic of serendipity and the beauty of finding love in unexpected places. Cheers to Lauren and Andrew, a love story written in the stars and sealed with a forever kind of love.</p>
 </div> */}
-</div>
-</div>
-    </div>
-    <hr/>
     <div className='p-16 bg-white'>
     <Second/>
     </div>

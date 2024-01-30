@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className='p-16 bg-white mt-16'>
     <div clasName='flex p-8 bg-white'>
-<div className='flex'>
+<div className='flex justify-center'>
 <Coming/>
 {/* <div>
     <h1 className='font-bold text-3xl text-orange text-center'>Our Story</h1>
