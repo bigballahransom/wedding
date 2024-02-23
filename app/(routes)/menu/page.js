@@ -4,12 +4,14 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='p-16 bg-white mt-16'>
-    <div clasName='flex p-8 bg-white'>
+    <div className='p-8 bg-white mt-16'>
+    <div clasName='flex bg-white'>
 <div className='flex justify-center'>
 <Coming/>
 </div>
-<Image src="/menu.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
+<div className='flex justify-center'>
+<Image src="/menu.png" alt="bookqube logo" width={800} height={800} className=" mx-auto rounded-lg border-4 border-white"/>
+</div>
 {/* <div>
     <h1 className='font-bold text-3xl text-orange text-center'>Our Story</h1>
     <p className='text-primary text-center pt-2'>Once upon a time in the vibrant city of Seattle, two souls embarked on a journey that would forever change the course of their lives. Lauren and Andrew, destined for each other, found their love story unfolding in the most unexpected of places – as roommates and friends.

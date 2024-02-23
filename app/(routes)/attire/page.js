@@ -11,18 +11,20 @@ const page = () => {
 {/* <Coming/> */}
 <h1 className='font-bold text-3xl text-orange text-center'>~ Guest Attire ~</h1>
 <p className='text-primary text-center pt-2 mb-4'>If you need help reach out to us! We have attached some guidelines below!</p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Please Wear: </span> Neutral and Earth Tones for a gorgeous, immersive outdoor wedding experience and cohesive, beautiful photos for the Bride and Groom. Women are welcome to wear 3/4 to full-length dresses, while men are encouraged to wear either a suit or a blazer with dress pants. (Color palettes and examples below for reference, with links for purchasing if you happen to see something you love!)</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Please Wear: </span> Neutral and Earth Tones for a gorgeous, immersive outdoor wedding experience and cohesive, beautiful photos for the Bride and Groom. Women are welcome to wear 3/4 to full-length dresses, while men are encouraged to wear either a suit or a blazer with dress pants. </p>
+<p className='text-primary text-center pt-2 mb-4'>(Color palette examples below for reference, with links if you happen to see something you love!)</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Kindly Avoid: </span>We also specifically request no solid black, blues, or bright red; alternatively, soft greys or burgundy will be a better color match for our theme. Please no jeans or other casual wear for this event. Women are welcome to wear 3/4 to full-length dresses, while men are encouraged to wear either a suit or blazer with dress pants.</p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Theme: </span>Etherial, woodsy, sunset.</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Theme: </span>Etherial, Woodsy, Summer Sunset.</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>~ Semi-Formal Attire ~</span></p>
 <h1 className='font-bold text-3xl text-orange text-center'>~ Colors ~</h1>
 <Image src="/palette.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
-<Image src="/idk.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
-<Image src="/gray.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16 border-2 border-white"/>
+<Image src="/idk.png" alt="bookqube logo" width={200} height={200} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/laurenwant.jpeg" alt="bookqube logo" width={200} height={200} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/gray.png" alt="bookqube logo" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-16 "/>
 
 <h1 className='font-bold text-3xl text-orange text-center'>~ Men ~</h1>
 <p className='text-primary text-center pt-2 mb-4'>Men: Suit or blazer with dress pants</p>
-<Image src="/men2.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
+<Image src="/men2.png" alt="bookqube logo" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/men.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-16"/>
 <Image src="/m1.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
 <Link className='flex justify-center items-center' href='https://www.pinterest.com/pin/52635889386730192/'>
@@ -47,8 +49,8 @@ const page = () => {
 
 <h1 className='font-bold text-3xl text-orange text-center mt-8'>~ Ladies ~</h1>
 <p className='text-primary text-center pt-2 mb-4'>Women: 3/4 to full-length dresses</p>
-<Image src="/women.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white"/>
-<Image src="/f1.png" alt="bookqube logo" width={200} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-4"/>
+<Image src="/women.png" alt="bookqube logo" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white"/>
+<Image src="/f1.png" alt="bookqube logo" width={250} height={250} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-4"/>
 <Link className='flex justify-center items-center' href='https://www.amazon.com/Wedding-Dresses-Appliques-Chiffon-Evening/dp/B0BKL38PK9?ref_=pinterest_fplfs&pp=0&epik=dj0yJnU9Z0pxNEFVbk1MN25ZZlQteWFoRFRCeUxEeFoyckNpcGEmcD0xJm49eXp0MFg2bXV4c0FDaDdoUXhORFBXZyZ0PUFBQUFBR1ZmeGx3&th=1&psc=1'>
 <button className='flex gap-1 bg-orange text-primary px-4 py-2 rounded-full hover:bg-backdrop items-center justify-center'>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

@@ -4,20 +4,20 @@ import React from 'react'
 
 const page = () => {
   return (
-<div className='p-16 bg-white mt-16'>
-    <div clasName='flex p-8 bg-white'>
+<div className='p-8 bg-white mt-16'>
+    <div clasName='flex p-4 bg-white'>
 <h1 className='font-bold text-3xl text-orange text-center'>~ Hood River Hotel ~</h1>
 <p className='text-primary text-center pt-2 mb-4 font-bold'>Address: 102 Oak St Hood River, OR 97031</p>
 <Image src="/hotel.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
 <h1 className='font-bold text-2xl text-orange text-center mb-2'>The Details:</h1>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Booking: </span> You can not book online, or on the phone; you must use our booking link!</p>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Booking: </span> You cannot book online or on the phone; you must use our booking link!</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Book Sooner Than Later: </span>Rooms will be released 30 days prior to the wedding.</p>
-<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Parking: </span>Daily paid parking available for those driving in.</p>
-<h1 className='font-bold text-2xl text-orange text-center mt-8 mb-2'>The Hood River Food Menu A.K.A. BRODER ØST:</h1>
-<p className='text-primary text-center pt-2 mb-4'>We're looking forward to the brunch!</p>
-<Image src="/border.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
-<Image src="/border2.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
-<Image src="/border3.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
+<p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Parking: </span>Daily parking available at $15/day.</p>
+<h1 className='font-bold text-2xl text-orange text-center mt-8 mb-2'>The Hotel Restaurant is BRODER ØST</h1>
+<p className='text-primary text-center pt-2 mb-4'>We're looking forward to a Saturday Send-off Brunch! Here's what's on the menu: </p>
+<Image src="/border.png" alt="menu" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-8"/>
+<Image src="/bordertwo.png" alt="menu" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-8"/>
+<Image src="/borderthree.png" alt="menu" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-8"/>
 {/* <div>
     <h1 className='font-bold text-3xl text-orange text-center'>Our Story</h1>
     <p className='text-primary text-center pt-2'>Once upon a time in the vibrant city of Seattle, two souls embarked on a journey that would forever change the course of their lives. Lauren and Andrew, destined for each other, found their love story unfolding in the most unexpected of places – as roommates and friends.
