@@ -1,3 +1,4 @@
+'use client';
 import Coming from '@/components/Coming'
 import Image from 'next/image'
 import React from 'react'
