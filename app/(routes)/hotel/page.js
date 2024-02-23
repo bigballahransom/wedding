@@ -7,7 +7,7 @@ const page = () => {
 <div className='p-16 bg-white mt-16'>
     <div clasName='flex p-8 bg-white'>
 <h1 className='font-bold text-3xl text-orange text-center'>~ Hood River Hotel ~</h1>
-<p className='text-primary text-center pt-2 mb-4 font-bold'>Address: 102 Oak St, Hood River, OR 97031</p>
+<p className='text-primary text-center pt-2 mb-4 font-bold'>Address: 102 Oak St Hood River, OR 97031</p>
 <Image src="/hotel.png" alt="bookqube logo" width={400} height={400} className=" mt-8 w-auto mx-auto rounded-lg border-4 border-white mb-8"/>
 <h1 className='font-bold text-2xl text-orange text-center mb-2'>The Details:</h1>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Booking: </span> You can not book online, or on the phone; you must use our booking link!</p>
