@@ -29,22 +29,26 @@ const Navbar = () => {
                         <SheetHeader>
                         <SheetTitle className='text-orange'>Lauren & Andrew Ransom</SheetTitle>
                         <SheetDescription>
-                        <Link href='/'>
+                        <Link href='/' >
+                        <SheetTrigger></SheetTrigger>
                             <button className='text-xl text-primary hover:text-orange'>Home</button>
                             </Link>
                         </SheetDescription>
                         <SheetDescription>
                         <Link href='/hotel'>
+                        <SheetTrigger></SheetTrigger>
                             <button className='text-xl text-primary hover:text-orange'>Hotel</button>
                             </Link>
                         </SheetDescription>
                         <SheetDescription>
                         <Link href='/menu'>
+                        <SheetTrigger></SheetTrigger>
                             <button className='text-xl text-primary hover:text-orange'>Menu</button>
                             </Link>
                         </SheetDescription>
                         <SheetDescription>
                         <Link href='/attire'>
+                        <SheetTrigger></SheetTrigger>
                             <button className='text-xl text-primary hover:text-orange'>Attire</button>
                             </Link>
                         </SheetDescription>
