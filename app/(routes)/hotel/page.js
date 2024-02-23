@@ -14,7 +14,7 @@ const page = () => {
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Booking: </span> You cannot book online or on the phone; you must use our booking link!</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Book Sooner Than Later: </span>Rooms will be released 30 days prior to the wedding.</p>
 <p className='text-primary text-center pt-2 mb-4'><span className='font-bold'>Parking: </span>Daily parking available at $15/day.</p>
-<h1 className='font-bold text-2xl text-orange text-center mt-8 mb-2'>The Hotel Restaurant is BRODER ØST</h1>
+<h1 className='font-bold text-2xl text-orange text-center mt-8 mb-2'>Hotel Restaurant: BRODER ØST</h1>
 <p className='text-primary text-center pt-2 mb-4'>We're looking forward to a Saturday Send-off Brunch! Here's what's on the menu: </p>
 <Image src="/borderz.png" alt="menuse" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-8"/>
 <Image src="/bordertwo.png" alt="menu" width={400} height={400} className=" mt-8 mx-auto rounded-lg border-4 border-white mb-8"/>
