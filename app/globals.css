@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tabbed-list {
+    padding-left: 20px;
+  }
+  
+  .tabbed-list > li {
+    list-style-type: none;
+    margin-left: -20px;
+  }
+  
+  .bullet-list {
+    padding-left: 20px;
+  }
