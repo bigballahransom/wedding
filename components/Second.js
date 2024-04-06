@@ -22,7 +22,7 @@ const Second = () => {
   <AccordionItem value="item-2">
     <AccordionTrigger>Alcohol</AccordionTrigger>
     <AccordionContent>
-      Please do not bring any alcohol to the wedding, the wedding and reception will be dry. You are welcome to drink after we leave the venue :)
+      Please do not bring any alcohol to the wedding, the wedding and reception will be not quite dry, but moist. You are welcome to drink after we leave the venue :)
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-3">
@@ -34,7 +34,7 @@ const Second = () => {
   <AccordionItem value="item-4">
     <AccordionTrigger>What can I wear to the wedding?</AccordionTrigger>
     <AccordionContent>
-      Attire: semi-formal, 3/4 or full-length dresses. For men a tie is optional.
+      Attire: semi-formal, 3/4 or full-length dresses. For men a tie is optional. <li><a href='/attire' className='text-blue-700 underline'>Visit Attire</a></li>
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-5">
