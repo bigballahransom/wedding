@@ -37,7 +37,7 @@ const Second = () => {
       Attire: semi-formal, 3/4 or full-length dresses. For men a tie is optional.
     </AccordionContent>
   </AccordionItem>
-  <AccordionItem value="item-4">
+  <AccordionItem value="item-5">
     <AccordionTrigger>Transportation from PDX airport?</AccordionTrigger>
     <AccordionContent>
     Rental car or bus options available: <li><a href='https://visithoodriver.com/transportation/' className='text-blue-700 underline'>Getting to and Around Hood River</a></li>
