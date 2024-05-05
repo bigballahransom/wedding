@@ -28,7 +28,7 @@ const page = () => {
         <li>● Steamer</li>
         <li>● Gold necklaces</li>
         <li>● White robes, sunglasses</li>
-        <li>● Welcome gifts</li>
+        {/* <li>● Welcome gifts</li> */}
       </ul>
 
       <h2 className='font-bold py-2'>Groomsmen</h2>
@@ -41,7 +41,7 @@ const page = () => {
       <h2 className='font-bold py-2'>Groom to Groomsmen</h2>
       <ul className='px-6'>
         <li>● Olive ties</li>
-        <li>● Welcome gifts</li>
+        {/* <li>● Welcome gifts</li> */}
       </ul>
 
       <h2 className='font-bold py-2'>Officiant</h2>
